@@ -6,7 +6,7 @@ from tkinter import ttk, messagebox, simpledialog, filedialog
 class CardManager:
     def __init__(self, root, file_path):
         self.root = root
-        self.root.title("Менеджер карточек Сверхлюди")
+        self.root.title("Менеджер карточек")
         self.root.geometry("800x600")
         self.root.minsize(600, 400)
         
